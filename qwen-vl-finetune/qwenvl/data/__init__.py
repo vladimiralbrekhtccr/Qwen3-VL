@@ -1,5 +1,10 @@
 import re
 
+MY_DATASET = {
+    "annotation_path": "/scratch/vladimir_albrekht/qwen3_vl_moe/Qwen3-VL/qwen-vl-finetune/qwenvl/data/example/anime_dataset_example/a_dataset.json",
+    "data_path": "/scratch/vladimir_albrekht/qwen3_vl_moe/Qwen3-VL/qwen-vl-finetune/qwenvl/data/example/anime_dataset_example/", # img_1.jpg
+}
+
 # Define placeholders for dataset paths
 CAMBRIAN_737K = {
     "annotation_path": "PATH_TO_CAMBRIAN_737K_ANNOTATION",
@@ -32,6 +37,7 @@ data_dict = {
     "mp_doc": MP_DOC,
     "clevr_mc": CLEVR_MC,
     "videochatgpt": VIDEOCHATGPT,
+    "my_dataset": MY_DATASET,
 }
 
 

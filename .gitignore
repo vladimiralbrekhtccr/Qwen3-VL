@@ -1,2 +1,6 @@
 __pycache__/
 .venv/
+.env
+qwen-vl-finetune/output
+qwen-vl-finetune/wandb
+.ipynb_checkpoints/
